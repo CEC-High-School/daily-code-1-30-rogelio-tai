@@ -1,10 +1,24 @@
+#include <iostream>
+using namespace std;
 
+int main() {
 
-//instructions for 1-19
-//
-//intro: Write a program that asks a user for how old they are, and then repeats that number back to them in an insult.
-//
-//intermediate: Write a program that prints the numbers 256 down to 32, counting by fours
-//
-//advanced: make an account at HackerRank.com
-//do this problem: https://www.hackerrank.com/challenges/c-tutorial-struct/problem
+	for (int i = 20; i < 81;i++)
+		cout << i << endl;
+
+	for (int i = 70; i > 9; i--)
+		cout << i << endl;
+
+	int i = 20;
+	while (i < 81) {
+		cout << i << endl;
+		i++;
+	}
+
+	int l = 70;
+	while (l >= 10) {
+		cout << l << endl;
+		l--;
+	}
+
+}
